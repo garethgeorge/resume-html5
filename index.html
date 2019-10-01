@@ -62,37 +62,39 @@
     <!-- work experience -->
     <h2 class="subheading">EXPERIENCE</h2>
     <div class="subsection">
-      <li>
-        <span class="font-weight-bold">Graduate Student Researcher | RACELab, UC Santa Barbara ​(September 2017 - PRESENT)</span>
-        <ul>
-          <li>Develop CSPOTLambda, an open source implementation of Functions as a Service (FaaS) that can run in the cloud,
-              on the edge, or even on a microprocessor while maintaining compatibility with many of Amazon’s API’s</li>
-          <li>Worked on DrAFTS, a ​project presenting an algorithm to create a statistical Service Level Agreements (SLAs) based
-              on analysis of past behavior of Spot Instance markets such as AWS Spot Instances</li>
-          <li>Improved prediction algorithm’s runtime by 1000% and updated the model to support incremental updates</li>
-        </ul>
-      </li>
+      <ul>
+        <li>
+          <span class="font-weight-bold">Graduate Student Researcher | RACELab, UC Santa Barbara ​(September 2017 - PRESENT)</span>
+          <ul>
+            <li>Develop CSPOTLambda, an open source implementation of Functions as a Service (FaaS) that can run in the cloud,
+                on the edge, or even on a microprocessor while maintaining compatibility with many of Amazon’s API’s</li>
+            <li>Worked on DrAFTS, a ​project presenting an algorithm to create a statistical Service Level Agreements (SLAs) based
+                on analysis of past behavior of Spot Instance markets such as AWS Spot Instances</li>
+            <li>Improved prediction algorithm’s runtime by 1000% and updated the model to support incremental updates</li>
+          </ul>
+        </li>
 
-      <li>
-        <span class="font-weight-bold">Software Engineering Intern | Adobe ​(June 2017 - August 2017), (June 2016 - August 2016)</span>
-        <ul>
-          <li>Worked on Adobe Sketch and Adobe Draw teams</li>
-          <li>Contributed to the implementation of application home screen redesign and improved the UI’s performance by
-              implementing multithreaded thumbnail loading for projects</li>
-          <li>Refactored layer management in drawing application to use the iOS 12 Drag and Drop APIs and implemented
-              support for drag and drop to other Adobe applications, this was marketed as a key feature of the Adobe Sketch and
-              Draw update for the release of iOS 12</li>
-        </ul>
-      </li>
-      
-      <li>
-        <span class="font-weight-bold">Software Engineer Intern | Entefy ​(June 2014 - August 2015)</span>
-        <ul>
-          <li>Developed backend using a microservice architecture with Node.js and PostgreSQL</li>
-          <li>Implemented internal message and notification dispatcher with RabbitMQ</li>
-          <li>Worked with Entefy two summers and over weekends in my senior year of highschool averaging 15 hours a week</li>
-        </ul>
-      </li>
+        <li>
+          <span class="font-weight-bold">Software Engineering Intern | Adobe ​(June 2017 - August 2017), (June 2016 - August 2016)</span>
+          <ul>
+            <li>Worked on Adobe Sketch and Adobe Draw teams</li>
+            <li>Contributed to the implementation of application home screen redesign and improved the UI’s performance by
+                implementing multithreaded thumbnail loading for projects</li>
+            <li>Refactored layer management in drawing application to use the iOS 12 Drag and Drop APIs and implemented
+                support for drag and drop to other Adobe applications, this was marketed as a key feature of the Adobe Sketch and
+                Draw update for the release of iOS 12</li>
+          </ul>
+        </li>
+        
+        <li>
+          <span class="font-weight-bold">Software Engineer Intern | Entefy ​(June 2014 - August 2015)</span>
+          <ul>
+            <li>Developed backend using a microservice architecture with Node.js and PostgreSQL</li>
+            <li>Implemented internal message and notification dispatcher with RabbitMQ</li>
+            <li>Worked with Entefy two summers and over weekends in my senior year of highschool averaging 15 hours a week</li>
+          </ul>
+        </li>
+      </ul>
     </div>
 
     <!-- skills and other interests -->
@@ -113,6 +115,61 @@
         <td>Git, linux, Docker, PostgreSQL, SQLite, AWS, React JS</td>
       </tr>
     </table>
+
+    <!-- projects -->
+    <h2 class="subheading">PROJECTS</h2>
+    <div class="subsection">
+      <ul>
+        <li>
+          <span class="font-weight-bold">AWS Spot Price Heatmap Visualizer</span>
+          <ul>
+            <li>Website shows a live heatmap of price changes of Amazon EC2 Spot Instances over time</li>
+            <li>Backend is Node.js server querying a database of 70 million price records, front end is React.js</li>
+            <li>Published on the UCSB CS department website at ​http://spotpriceviz.cs.ucsb.edu/</li>
+          </ul>
+
+          <span class="font-weight-bold">Project Anacapa</span>
+          <ul>
+            <li>Worked on an Agile team, with faculty members as product owners, to replace the existing legacy autograder tool used by UCSB’s College of Engineering</li>
+            <li>Developed a number of tools used in the school’s lower division courses to manage coding assignments</li>
+            <li>Created custom software for UCSB’s peer tutoring program allowing peer tutors to easily track student progress and
+                provide individualized feedback through GitHub</li>
+          </ul>
+
+          <span class="font-weight-bold">GauchoCal</span>
+          <ul>
+            <li>Developed a chrome extension that integrates with UCSB’s online course catalogue allowing students to immediately 
+                synchronize their class schedules with their calendars</li>
+          </ul>
+
+          <span class="font-weight-bold">PDF Speed Reader</span>
+          <ul>
+            <li>Developed a PDF speed reader in Java, motivated by reading intensive coursework, which allowed the user to read
+                and comprehend text at upwards of 400 words per minute</li>
+            <li>Rather than reading left to right, tool flashes text in front of the user with specific letters highlighted to inform the eye
+                where to focus, the reading efficiency is achieved by allowing the eye to stay focused in the same place</li>
+            <li>Based on a similar concept to websites such as spritz and spreader</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="subheading">RESEARCH PUBLICATIONS</h2>
+    <div class="subsection">
+      <ul>
+        <li>
+            Rich Wolski, Chandra Krintz, Fatih Baker, <span class="font-weight-bold">​Gareth George</span>, ​Wei-Tsung Lin. ​FaaSIoT: Portable, Multi-scale Functions-as-a-Service for IoT.​ Pending publication ACM/IEEE Symposium on Edge Computing. Accepted July 2019.
+        </li>
+        <li>
+            <span class="font-weight-bold">Gareth George​</span>, Rich Wolski, Chandra Krintz, John Brevik. ​Analyzing AWS Spot Instance Pricing. P​ ublished in the IEEE International Conference on Cloud Engineering. May 2019.
+        </li>
+      </ul>
+    </div>
+
+
+    <hr />
+
+    <p>Source code for this site: <a href="https://github.com/garethgeorge/resume-html5">github.com/garethgeorge/resume-html5</a></p>
 
   </div>
 </body>

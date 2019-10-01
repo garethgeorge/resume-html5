@@ -1,0 +1,5 @@
+Images from flaticon.com 
+ - 001-phone.png by Gregor Cresner 
+ - 002-cat.png by Dave Gandy
+ - 003-mail.png by Gregor Cresner 
+ - 004-linkedin.png by Freepik

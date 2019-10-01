@@ -37,3 +37,10 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+/* skills section css rules */
+#skills tr td:nth-child(1) {
+    font-weight: bold;
+    padding-right: 10px;
+    /* text-align: right; */
+}
